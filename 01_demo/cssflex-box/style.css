@@ -1,0 +1,14 @@
+.contaniner{
+    height:200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+}
+.box{
+    
+    border:1px solid rgb(36, 32, 32);
+    
+}
