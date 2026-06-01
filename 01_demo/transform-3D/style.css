@@ -8,6 +8,7 @@ div{
     transform: perspective(10px) translateZ(-10px);
 }
 .scaled{
-    margin: 200px;
-    transform: perspective(350px) scaleZ(20) rotateX(15deg) rotateY(30deg);
+    margin: 100px;
+    transform: rotate(35deg);
+    /* transform: perspective(350px) scaleZ(4) rotateX(15deg) rotateY(30deg); */
 }
