@@ -5,10 +5,14 @@ div{
     border: 1px solid black;
 }
 .translated{
-    transform: perspective(10px) translateZ(-10px);
+    transform: perspective(50px) translateZ(-80px);
+    /* transform: perspective(10px) translateZ(-10px); */
 }
+/* zooming */
 .scaled{
     margin: 100px;
-    transform: rotate(35deg);
+        transform: perspective(350px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+    /* transform: perspective(350px) scaleZ(6) rotate(45deg) rotateY(30deg); */
+    /* transform: rotate(35deg);  */
     /* transform: perspective(350px) scaleZ(4) rotateX(15deg) rotateY(30deg); */
 }
