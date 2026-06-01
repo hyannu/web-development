@@ -5,3 +5,11 @@
     border: 1px solid rgb(225, 81, 81);
        background-image: linear-gradient(orange 25%,rgb(227, 16, 16));
 }
+.gg{
+    color: blue;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid red;
+    background-image: linear-gradient(yellow,green,red);
+}
