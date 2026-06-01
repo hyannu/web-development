@@ -1,3 +1,10 @@
+.container{
+    display: flex;
+}
+
+
+
+
 .g{
     color: black;
     height: 200px;
@@ -10,6 +17,10 @@
     height: 200px;
     width: 200px;
     margin-top: 10px;
+    margin: 10px;
     border: 2px solid red;
     background-image: linear-gradient(yellow,green,red);
+}
+.r{
+    
 }
