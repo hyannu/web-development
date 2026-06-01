@@ -18,9 +18,39 @@
     width: 200px;
     margin-top: 10px;
     margin: 10px;
-    border: 2px solid red;
+    border: 2px solid rgb(176, 58, 58);
     background-image: linear-gradient(yellow,green,red);
 }
 .r{
+    color: rgb(43, 34, 34);
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    border: 1px solid rgb(73, 57, 12);
+    background-image: linear-gradient( to top ,orange 25%,rgb(203, 119, 177));
+
+}
+.rr{ color: rgb(33, 20, 20);
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: 1px solid rgb(73, 57, 12);
+    background-image: linear-gradient(to left, orange,white,green );
     
+
+}
+.rrr{ color: rgb(255, 0, 0);
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(73, 57, 12);
+    background-image: linear-gradient( to top ,orange 25%,rgb(203, 119, 177));
+
+}
+.t{
+    .tt{}
+    .ttt{}
+    .tttt{}
 }
