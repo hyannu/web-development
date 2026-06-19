@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conic gradient</title>
-    <link rel="stylesheet" src="conic.css">
+<style>
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.umbrella{
+    position:relative;
+}
+
+.top{
+    width:200px;
+    height:100px;
+    background:red;
+    border-radius:100px 100px 0 0;
+}
+
+.handle{
+    width:8px;
+    height:150px;
+    background:black;
+    margin:auto;
+}
+
+.hook{
+    width:40px;
+    height:40px;
+    border:8px solid black;
+    border-top:none;
+    border-right:none;
+    border-radius:0 0 0 40px;
+    margin-left:96px;
+}
+</style>
 </head>
 <body>
-    <div class="circle"></div>
+
+<div class="umbrella">
+    <div class="top"></div>
+    <div class="handle"></div>
+    <div class="hook"></div>
+</div>
+
 </body>
 </html>
